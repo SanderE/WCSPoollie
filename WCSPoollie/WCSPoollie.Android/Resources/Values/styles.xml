@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <style name="WCSAppTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+    <item name="android:actionBarStyle">@style/WCSActionBar</item>
+  </style>
+
+  <style name="WCSActionBar" parent="@android:style/Widget.Holo.ActionBar">
+    <item name="android:background">#0000FF</item>
+    <item name="android:titleTextStyle">@style/WCSActionBar.TitleTextStyle</item>
+    <item name="android:backgroundStacked">#DD0000</item>
+  </style>
+
+  <style name="WCSActionBar.TitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+    <item name="android:textColor">#FFFFFF</item>
+  </style>
+
+  <style name="Theme.Splash" parent="android:Theme">
+    <item name="android:windowBackground">@drawable/splash</item>
+    <item name="android:windowNoTitle">true</item>
+  </style>
+
+</resources>
