@@ -39,7 +39,7 @@ namespace WCSPoollie.Shared
 
         public static Page GetTournamentListPage()
         {
-            
+              
         }
     }
 }
